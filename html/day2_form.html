@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Enter your personal details:</h2>
+    <!--create a form-->
+    <form onsubmit="" class="form" id="form">
+        <table style="background-color:aliceblue;">
+            <tbody>
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text" placeholder="your name" style="" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <th><label>Mobile</label></th>
+                    <td>
+                        <input type="number" placeholder="your mobile number" name="mobile" id="mobile"></input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="">Email</lable>
+                    </th>
+                    <td>
+                        <input type="email" placeholder="your email" name="email">
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="">Date of Birth</lable>
+                    </th>
+                    <td>
+                        <input type="date" name="gen" id="gen_m">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th><label>Age</label></th>
+                    <td>
+                        <input type="number" min="0" placeholder="your age" name="mobile" id="mobile"></input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="">Gender</lable>
+                    </th>
+                    <td>
+                        <input type="radio" name="gen" id="gen_m">Male
+                        <input type="radio" name="gen" id="gen_f">Female
+                        <input type="radio" name="gen" id="gen_o">Others
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="">Blood Group</lable>
+                    </th>
+                    <td>
+                        <select>
+                            <option value="">A+</option>
+                            <option value="">A-</option>
+                            <option value="">B+</option>
+                            <option value="">B-</option>
+                            <option value="">O+</option>
+                            <option value="">O-</option>
+                            <option value="">AB+</option>
+                            <option value="">AB-</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="">Qualification</lable>
+                    </th>
+                    <td>
+                        <select multiple>
+                            <option value="10th">Matriculation</option>
+                            <option value="12th">High Secondary</option>
+                            <option value="grad">Graduation</option>
+                            <option value="master">Post Graduation</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="">Location</lable>
+                    </th>
+                    <td>
+                        <label for="">City</label>
+                        <select>
+                            <option value="jpg">Jalpaiguri</option>
+                            <option value="cooch">Coochbehar</option>
+                            <option value="dj">Darjeeling</option>
+                            <option value="apd">Alipurduar</option>
+                        </select>
+
+                        <label for="">State</label>
+                        <select>
+                            <option value="wb">West Bengal</option>
+                            <option value="jk">Jharkhan</option>
+                            <option value="sk">Sikkim</option>
+                            <option value="up">Uttar Pradesh</option>
+                        </select>
+                        <br>
+                        <label for="">Pin code</label>
+                        <input type="number" name="pincode" id="" placeholder="enter your pincode">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <label for="">Skills</lable>
+                    </th>
+                    <td>
+                        <input type="checkbox" name="skills" id="">Java
+                        <input type="checkbox" name="skills" id="">Javascript
+                        <input type="checkbox" name="skills" id="">Python
+                        <input type="checkbox" name="skills" id="">Data Science
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="">Profile Photo</lable>
+                    </th>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="">Comments</lable>
+                    </th>
+                    <td>
+                        <textarea placeholder="enter your Feedback" name="comment" id="comment"></textarea>
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <th colspan="2">
+                        <br>
+                        <!-- button by default submit -->
+                        <button type="submit"
+                            style="background-color:chartreuse;border-radius: 5px; padding: 5px;">Submit</button>
+                        <button type="reset"
+                            style="background-color:red;color: white;border-radius: 5px; padding: 5px;">Reset</button>
+                    </th>
+                </tr>
+            </tbody>
+
+
+        </table>
+
+    </form>
+    <br>
+
+    <br>
+
+    <table border="0" style="border: 1px solid black;">
+        <tbody>
+            <tr>
+                <td><img src="https://picsum.photos/id/11/2500/1667" title="photo 1" height="100" width="100" style="border-radius: 50%;"></td>
+                <td><img src="https://picsum.photos/id/10/2500/1667" title="photo 2" height="100" width="100"></td>
+                <td><img src="https://picsum.photos/id/18/2500/1667" title="photo 3" height="100" width="100"></td>
+            </tr>
+            <tr>
+                <td><img src="https://picsum.photos/id/21/3008/2008" title="photo 4" height="100" width="100"></td>
+                <td><img src="https://picsum.photos/id/24/4855/1803" title="photo 5" height="100" width="100"></td>
+                <td><img src="https://picsum.photos/id/28/4928/3264" title="photo 6" height="100" width="100"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
