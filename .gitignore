@@ -1,4 +1,5 @@
 # Binary / build artifacts
+.vscode/
 *.obj
 *.exe
 *.pdb
